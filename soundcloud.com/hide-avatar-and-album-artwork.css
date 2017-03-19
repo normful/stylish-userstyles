@@ -1,0 +1,8 @@
+@-moz-document domain("soundcloud.com") {
+/* Hide album artwork and avatars */
+.sound__coverArt,
+.g-avatar-badge-body,
+.sc-artwork {
+    display: none !important;
+}
+}

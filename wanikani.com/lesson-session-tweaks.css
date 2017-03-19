@@ -1,0 +1,46 @@
+@-moz-document url("https://www.wanikani.com/lesson/session") {
+#character {
+    font-size: 6em !important;
+}
+
+#supplement-kan-reading > div > div.pure-u-1-4.col1 > div > span {
+    font-size: 29px;
+}
+
+#supplement-voc-synonyms {
+    display: inline;
+    padding: 7px;
+    line-height: 34px;
+    color: #fff;
+    background-color: #a100f1;
+    background-image: -moz-linear-gradient(top, #a0f, #9300dd);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a0f), to(#9300dd));
+    background-image: -webkit-linear-gradient(top, #a0f, #9300dd);
+    background-image: -o-linear-gradient(top, #a0f, #9300dd);
+    background-image: linear-gradient(to bottom, #a0f, #9300dd);
+    background-repeat: repeat-x;
+}
+
+#supplement-voc-part-of-speech {
+    font-weight: bolder;
+    display: inline;
+    padding: 7px;
+    background-color: #d6f1ff;
+}
+
+#supplement-voc-reading > div > div.pure-u-1-4.col1 > div {
+    font-size: 40px;
+}
+
+#supplement-voc-context-sentence {
+    font-size: 34px;
+}
+
+#edict-info > ol > li > div > span {
+    padding: 7px;
+}
+
+#lesson {
+    margin-bottom: 80px;
+}
+}

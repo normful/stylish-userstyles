@@ -1,0 +1,5 @@
+@-moz-document domain("www.wunderground.com") {
+.header-ad-wrap, #top-ad-wrapper, .ad-box, #community-content {
+    display: none !important;
+}
+}

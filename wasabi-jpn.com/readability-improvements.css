@@ -1,0 +1,44 @@
+@-moz-document regexp("https://www.wasabi-jpn.com/japanese-lessons/\\d-\\d-.*"), regexp("https://www.wasabi-jpn.com/japanese-lessons/japanese-graded-readers-.*") {
+/* Hide right sidebar */
+
+#side {
+    display: none;
+}
+
+/* Expand main section */
+
+.main-inner {
+    margin-right: 0;
+}
+
+.left-content .main-inner {
+    margin-right: 0;
+}
+
+
+/* Make read-aloud passage text larger */
+
+.post-content > p:nth-child(10) {
+    font-size: 30px;
+    line-height: 70px;
+    font-family: "MS Mincho";
+    letter-spacing: 3px;
+}
+
+/* Make vocabulary text in table larger */
+
+.post-content > table > tbody > tr > td:nth-child(1) {
+    font-size: 30px;
+    line-height: 70px;
+    font-family: "MS Mincho";
+    letter-spacing: 1px;
+}
+}
+
+@-moz-document regexp("https://www.wasabi-jpn.com/japanese-lessons/japanese-grammar-.*") {
+/* Fully hide answers in Grammar Exercises */
+
+#icp {
+    color: black !important;
+}
+}

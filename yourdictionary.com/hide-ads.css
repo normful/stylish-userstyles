@@ -1,0 +1,5 @@
+@-moz-document domain("yourdictionary.com") {
+#ad-super-sentence, #ad300, .slideshow_sidebar {
+    display: none !important;
+}
+}

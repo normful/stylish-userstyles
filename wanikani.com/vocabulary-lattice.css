@@ -1,0 +1,12 @@
+@-moz-document url-prefix("https://www.wanikani.com/lattice/vocabulary") {
+.lattice-multi-character li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.lattice-multi-character a {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 30px;
+}
+}

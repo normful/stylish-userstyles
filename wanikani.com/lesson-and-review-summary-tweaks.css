@@ -1,0 +1,9 @@
+@-moz-document url-prefix("https://www.wanikani.com/lesson"), url-prefix("https://www.wanikani.com/review") {
+.pure-u-1 > div > ul > li > a {
+    font-size: 60px;
+}
+
+#correct {
+    display: none !important;
+}
+}

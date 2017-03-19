@@ -1,0 +1,27 @@
+@-moz-document domain("www.facebook.com") {
+
+/* Hide everything except the top navbar and the chat boxes  */
+#pinnedNav,
+#groupsNav,
+#appsNav,
+#listsNav,
+#interestsNav,
+#pagesNav,
+#developerNav,
+#eventsNav,
+
+#pagelet_megaphone,
+#pagelet_composer,
+#pagelet_rhc_footer,
+#pagelet_welcome_box,
+
+#leftCol,
+#contentCol,
+#rightCol,
+.home_right_column,
+
+#u_0_0 {
+    display: none !important;
+}
+
+}

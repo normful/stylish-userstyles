@@ -1,0 +1,12 @@
+@-moz-document domain("speedtest.net"), domain("beta.speedtest.net") {
+/* Hide all ads */
+#ad-top-wrap,
+.ad-vertical-left,
+.ad-vertical-right,
+.lbc-ad,
+.pure-u-custom-ad-rectangle.u-c,
+.pure-u-custom-ad-skyscraper.u-c,
+.ad-container .ad {
+    display: none !important;
+}
+}

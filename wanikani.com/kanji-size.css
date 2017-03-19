@@ -1,0 +1,5 @@
+@-moz-document url("https://www.wanikani.com/kanji"), url-prefix("https://www.wanikani.com/kanji?"), regexp("https://www.wanikani.com/level/\\d+") {
+.character-item > a > ul > li:nth-child(1) {
+  font-size: 29px;
+}
+}
